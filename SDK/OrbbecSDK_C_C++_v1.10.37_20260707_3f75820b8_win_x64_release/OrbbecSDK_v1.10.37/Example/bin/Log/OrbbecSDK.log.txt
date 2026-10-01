@@ -12828,3 +12828,43 @@
 [09/30 12:23:46.785903][debug][17768][WinHelpers.cpp:88] hr = spSample->GetUnknown(MFSampleExtension_CaptureMetadata, IID_PPV_ARGS(&spUnknown)) returned: HResult 0xc00d36e6: "The requested attribute was not found."
 [09/30 12:23:46.817930][debug][10196][WinHelpers.cpp:88] hr = spSample->GetUnknown(MFSampleExtension_CaptureMetadata, IID_PPV_ARGS(&spUnknown)) returned: HResult 0xc00d36e6: "The requested attribute was not found."
 [09/30 12:23:46.849911][debug][17768][WinHelpers.cpp:88] hr = spSample->GetUnknown(MFSampleExtension_CaptureMetadata, IID_PPV_ARGS(&spUnknown)) returned: HResult 0xc00d36e6: "The requested attribute was not found."
+[10/01 12:47:04.291075][warning][2368][OpenNIDeviceInfo.cpp:192] New openni device matched.
+[10/01 12:47:04.294785][warning][2368][OpenNIHostProtocol.cpp:739] Get usb core type failed!
+[10/01 12:47:04.475275][warning][2368][ObException.cpp:5] Current device does not support frame sync!
+[10/01 12:47:04.475338][warning][2368][Pipeline.cpp:45] Execute failure! A libobsensor_exception has occurred!
+	 - where:45#libobsensor::Pipeline::Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:class libobsensor::unsupported_operation_exception
+[10/01 12:47:04.554581][warning][2368][ObException.cpp:5] Current device does not support frame sync!
+[10/01 12:47:04.603272][error][2368][WinHelpers.cpp:85] streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.603292][warning][2368][ObException.hpp:40] streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.603552][warning][2368][WmfUvcDevicePort.cpp:1008] Execute failure! A libobsensor_exception has occurred!
+	 - where:1008#libobsensor::pal::WmfUvcDevicePort::startStream
+	 - msg:streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+	 - type:class libobsensor::windows_pal_exception
+[10/01 12:47:04.603554][warning][2368][WmfUvcDevicePort.cpp:1008] Retry to start stream!
+[10/01 12:47:04.608736][error][2368][WinHelpers.cpp:85] streamReader_->Flush(index) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.608747][warning][2368][ObException.hpp:40] streamReader_->Flush(index) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.608807][warning][2368][WmfUvcDevicePort.cpp:1008] Execute failure! A libobsensor_exception has occurred!
+	 - where:1008#libobsensor::pal::WmfUvcDevicePort::startStream
+	 - msg:streamReader_->Flush(index) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+	 - type:class libobsensor::windows_pal_exception
+[10/01 12:47:04.669673][error][2368][WinHelpers.cpp:85] streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.669679][warning][2368][ObException.hpp:40] streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+[10/01 12:47:04.669910][warning][2368][VideoSensor.cpp:666] Execute failure! A libobsensor_exception has occurred!
+	 - where:666#libobsensor::VideoSensor::start
+	 - msg:streamReader_->ReadSample(...) returned: HResult 0xc00d3704: "Hardware MFT failed to start streaming due to lack of hardware resources."
+	 - type:class libobsensor::windows_pal_exception
+[10/01 12:47:04.862723][warning][2368][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100
+[10/01 12:47:07.906803][warning][2368][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**22 logs in 3044ms**]
+[10/01 12:47:13.970790][warning][2368][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**41 logs in 6063ms**]
+[10/01 12:47:26.085234][warning][14212][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100 [**80 logs in 12114ms, last: 12:47:25.953926**]
+[10/01 12:49:55.597021][warning][20360][OpenNIDeviceInfo.cpp:192] New openni device matched.
+[10/01 12:49:55.600653][warning][20360][OpenNIHostProtocol.cpp:739] Get usb core type failed!
+[10/01 12:49:55.759027][warning][20360][ObException.cpp:5] Current device does not support frame sync!
+[10/01 12:49:55.759126][warning][20360][Pipeline.cpp:45] Execute failure! A libobsensor_exception has occurred!
+	 - where:45#libobsensor::Pipeline::Pipeline
+	 - msg:Current device does not support frame sync!
+	 - type:class libobsensor::unsupported_operation_exception
+[10/01 12:49:55.984111][warning][20360][ObException.cpp:5] Current device does not support frame sync!
+[10/01 12:49:56.524789][warning][20360][Pipeline.cpp:377] Wait for frame timeout, you can try to increase the wait time! current timeout=100
